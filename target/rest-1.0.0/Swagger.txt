@@ -1,0 +1,28 @@
+1.pom.xml에 라이브러리 추가
+	<!-- Swagger 코어-->
+	<dependency>
+	    <groupId>io.springfox</groupId>
+	    <artifactId>springfox-swagger2</artifactId>
+	    <version>2.9.2</version>
+	</dependency>
+	<!-- 테스트 UI 생성용-->
+	<dependency>
+	    <groupId>io.springfox</groupId>
+	    <artifactId>springfox-swagger-ui</artifactId>
+	    <version>2.9.2</version>
+	</dependency>
+
+2. Swagger Configuration을 위한 클래스 작성
+
+	@Configuration
+	@EnableSwagger2
+	public class SwaggerConfig {
+		@Bean
+		public Docket openApi() {
+		
+		}
+	}
+}
+
+3.Swagger-UI 확인
+	http://localhost:서버포트/컨텍스트루트/swagger-ui.html
