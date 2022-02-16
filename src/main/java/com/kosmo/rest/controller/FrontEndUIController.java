@@ -92,7 +92,7 @@ public class FrontEndUIController {
 		HttpHeaders headers = new HttpHeaders();
 		headers.add("Content-Type", "application/json");
 		//파이베이스 콘솔->프로젝트 설정(톱니)->클라우드 메시징 탭 메뉴의 서버키
-		headers.add("Authorization","key=AAAAYPwr1RU:APA91bHNRz1hEUtPQgBIAHgFpZAoHVRGqzI53O33ckWxlN2nI8lt0fekrAxWj2dFdNRowph1AHJ6VNOy0q4ZVJfz2Rhr34Tcb-dN5QLu75hRpM9NOlkAiygTUMACHWxJ0mzsZ3JWjge1");
+		headers.add("Authorization","key=");
 		
 		//2.요청 바디 설정
 		//{"data":{"폼의 파라미터명":"제목입니다","폼의 파라미터명":"내용입니다"},"to":"토큰값"}
